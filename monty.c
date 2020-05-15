@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 {
 	unsigned int cnt = 0;
 	ssize_t chr;
-	size_t size = 10;
+	size_t size = 32;
 	char *cmd, *tkn;
 	stack_t *head = NULL;
 
