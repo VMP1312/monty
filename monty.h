@@ -61,4 +61,5 @@ void _pint(stack_t **ptr, unsigned int cnt);
 void _pop(stack_t **ptr, unsigned int cnt);
 void _swap(stack_t **ptr, unsigned int cnt);
 void _add(stack_t **ptr, unsigned int cnt);
+void _nop(stack_t **ptr, unsigned int cnt);
 #endif /* _MONTY_H_ */

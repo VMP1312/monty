@@ -16,6 +16,7 @@ void op_cmd(stack_t **ptr, unsigned int cnt, char *cmd)
 		{"pop", _pop},
 		{"swap", _swap},
 		{"add", _add},
+		{"nop", _nop},
 		{NULL, NULL}
 	};
 
