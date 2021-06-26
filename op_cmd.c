@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
- * op_cmd - OpCommands.
+ * op_cmd - Function that selects which one of the
+ * opcodes needs to be executed.
  * @cmd: command.
  * @ptr: Pointer.
  * @cnt: Count.
@@ -38,19 +39,3 @@ void op_cmd(stack_t **ptr, unsigned int cnt, char *cmd)
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
