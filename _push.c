@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
- * _push - OpCode Push
- * @ptr: Pointer.
+ * _push - OpCode Push that pushes an element to the stack.
+ * @ptr: Pointer to the head of the stack.
  * @cnt: Count.
  */
 void _push(stack_t **ptr,  unsigned int cnt)
