@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
  * _add - Adds the top two elements of the stack.
- * @ptr: Pointer.
+ * @ptr: Pointer to the head of the stack.
  * @cnt: Count.
  */
 void _add(stack_t **ptr, unsigned int cnt)
