@@ -44,7 +44,7 @@ void _push(stack_t **ptr,  unsigned int cnt)
 }
 
 /**
- *  _pall - Prints all the elements
+ *  _pall - Prints all the elements, starting from the top of the stack.
  * @ptr: Pointer.
  * @cnt: Count.
  */
