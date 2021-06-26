@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
  * _pop - function that removes the top element of the stack.
- * @ptr: Pointer.
+ * @ptr: Pointer to the stack head.
  * @cnt: Count
  */
 void _pop(stack_t **ptr, unsigned int cnt)
