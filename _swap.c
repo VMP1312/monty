@@ -1,7 +1,7 @@
   #include "monty.h"
 /**
  * _swap - function that swaps the top two elements of the stack.
- * @ptr: Pointer.
+ * @ptr: Pointer to the head of the stack.
  * @cnt: Count.
  */
 void _swap(stack_t **ptr, unsigned int cnt)
